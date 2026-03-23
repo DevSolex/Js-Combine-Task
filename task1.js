@@ -40,4 +40,17 @@ Hobby : Coding
 ====================
 
 */
+//  Question 3 using template literal
+let userProfile= {
+name: "Solex",
+age : 34,
+country: "Nigeria",
+hobby: "coding"
+};
 
+let profileOutcome  = `Name: ${userProfile.name} 
+Age: ${userProfile.age} 
+Country: ${userProfile.country}
+Hobby: ${userProfile.hobby}`;
+
+console.log (profileOutcome)
