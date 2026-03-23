@@ -25,12 +25,15 @@ Expected Output
 Andrew is a developer from India.
 
 */
-let firstName = "Val"
-let lastName = "Andrew"
-let country = "India"
-let job = "Developer"
-console.log(`${firstName} is a ${job} from ${country}`)
+let user = {
+firstName: "Andrew",
+lastName: "Smith",
+country: "India",
+job: "developer"
+};
 
+let biography = `${user.firstName} is a ${user.job} from ${user.country}.`;
+console.log(biography);
 
 /*
 Amaka And Solex:
