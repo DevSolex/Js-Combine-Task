@@ -10,7 +10,9 @@ Expected Output
 
 */
 
-
+const quotes = '"i\'m not wrong, what\'s wrong is this messed up world"';
+const author = "ken kaneki"
+console.log(`${quotes} - ${author}`);
 
 /* 
 ValJnr-dev1:
