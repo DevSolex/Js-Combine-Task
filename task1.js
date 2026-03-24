@@ -23,8 +23,8 @@ Expected Output
 Andrew is a developer from India.
 
 */
-let firstName = "Val"
-let lastName = "Andrew"
+let firstName = "Andrew"
+let lastName = "Val"
 let country = "India"
 let job = "Developer"
 console.log(`${firstName} is a ${job} from ${country}`)
