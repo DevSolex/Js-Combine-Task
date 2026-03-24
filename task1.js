@@ -10,7 +10,9 @@ Expected Output
 
 */
 
-
+const quotes = '"i\'m not wrong, what\'s wrong is this messed up world"';
+const author = "ken kaneki"
+console.log(`${quotes} - ${author}`);
 
 /* 
 ValJnr-dev1:
@@ -29,6 +31,8 @@ let country = "India"
 let job = "Developer"
 console.log(`${firstName} is a ${job} from ${country}`)
 
+let biography = `${user.firstName} is a ${user.job} from ${user.country}.`;
+console.log(biography);
 
 /*
 Amaka And Solex:
