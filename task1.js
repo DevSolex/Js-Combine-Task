@@ -25,12 +25,11 @@ Expected Output
 Andrew is a developer from India.
 
 */
-let user = {
-firstName: "Andrew",
-lastName: "Smith",
-country: "India",
-job: "developer"
-};
+let firstName = "Andrew"
+let lastName = "Val"
+let country = "India"
+let job = "Developer"
+console.log(`${firstName} is a ${job} from ${country}`)
 
 let biography = `${user.firstName} is a ${user.job} from ${user.country}.`;
 console.log(biography);
@@ -50,17 +49,9 @@ Hobby : Coding
 ====================
 
 */
-//  Question 3 using template literal
-let userProfile= {
-name: "Solex",
-age : 34,
-country: "Nigeria",
-hobby: "coding"
-};
-
-let profileOutcome  = `Name: ${userProfile.name} 
-Age: ${userProfile.age} 
-Country: ${userProfile.country}
-Hobby: ${userProfile.hobby}`;
-
-console.log (profileOutcome)
+//  Question 3 using template literal 
+let Name = "Solex"
+let Country = "Nigeria"
+let age = 20
+let hobby = "Coding"
+console.log(` Name: ${Name}\n Age: ${age}\n Country: ${Country}\n Hobby: ${hobby}`)
